@@ -1,0 +1,76 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color:rgb(219, 219, 219);
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh; /* vh usado para visualização completa de tela - mais responsivo*/
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 3%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.label-text {
+    font-weight: bold;
+    display: block; /* Nesse caso serviu para quebra de linha entre os inputs */
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 11px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    width: 100%;
+    box-sizing: border-box; /*Usado para corrigir margem do input*/
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 7px; /*usei para crescer o conteudo*/
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(152, 152, 219);
+}
+
+input[type="submit"]:hover {
+    background-color: #007ab3;
+    cursor: pointer;
+}
+
+
+.password-options {
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.remember-container {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.new-acc {
+    margin-top: 7%;
+    text-align: center;
+}
+
+
+
